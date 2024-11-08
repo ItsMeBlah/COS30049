@@ -1,0 +1,23 @@
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-svg {
+    width: 35px; 
+    height: 35px; 
+    fill: #fff; 
+    transform: rotate(45deg); 
+}
+
+.logo-heading {
+    font-family: "Montserrat", sans-serif; 
+    padding: 0px; 
+    margin: 0px; 
+    color: #fff;
+    letter-spacing: 5px; 
+}
+
+/* MEDIA QUERIES */
+

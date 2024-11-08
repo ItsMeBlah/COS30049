@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0px; 
+    padding: 0px;
+    width: 100%; 
+    height: 100%; 
+    background-color: #fff; 
+}
+
+#root {
+    width: 100%; 
+    height: 100%;
+}
+
+main {
+    width: 100%; 
+    height: 100%; 
+}
+
+p {
+    line-height: 30px; 
+}
+
+/* UTILITY */
+
+.text-highlight {
+    color: #24a0ed; 
+}

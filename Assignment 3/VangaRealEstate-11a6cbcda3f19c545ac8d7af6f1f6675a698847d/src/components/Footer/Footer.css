@@ -1,0 +1,117 @@
+/* Base Footer Styling */
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #24a0ed;
+    gap: 2.5rem;
+    padding: 2rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer Container */
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between links */
+}
+
+.footer-container-top a {
+    text-decoration: none;
+}
+
+/* Middle Container Links */
+.footer-container-middle a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Link Underline Hover Effect */
+.footer-container-middle a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+}
+
+.footer-container-middle a:hover::after {
+    width: 130%;
+}
+
+.footer-container-middle {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Bottom Container Link Hover */
+.footer-container-bottom a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.footer-subtitle {
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+/* Responsive Styling */
+
+/* For tablets (up to 768px) */
+@media (max-width: 768px) {
+    .footer {
+        gap: 2rem; /* Reduce gap between sections */
+        padding: 1.5rem 1rem; /* Reduce padding */
+    }
+
+    .footer-container-middle {
+        gap: 0.5rem; /* Decrease space between links */
+    }
+
+    .footer-container-middle a {
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .footer-subtitle {
+        font-size: 0.9rem; /* Reduce subtitle font size */
+    }
+}
+
+/* For mobile devices (up to 480px) */
+@media (max-width: 480px) {
+    .footer {
+        gap: 1.5rem; /* Further reduce gap */
+        padding: 1rem 0.5rem; /* Compact padding for mobile */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center;
+    }
+
+    .footer-container-middle {
+        flex-direction: column; /* Stack links vertically */
+        gap: 0.5rem; /* Smaller gap between stacked links */
+    }
+
+    .footer-container-middle a {
+        font-size: 0.9rem; /* Smaller font size for links */
+    }
+
+    .footer-subtitle {
+        font-size: 0.8rem; /* Reduce subtitle font size */
+    }
+}

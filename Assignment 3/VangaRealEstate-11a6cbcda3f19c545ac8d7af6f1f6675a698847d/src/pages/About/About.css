@@ -1,0 +1,82 @@
+.about-wrapper {
+    width: 100%; 
+    height: 100%;
+    margin: 5rem 0rem;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about-header {
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.about-header__heading {
+    color: #000; 
+    font-family: "Montserrat", sans-serif; 
+}
+
+.about-content {
+    width: 100%;
+    height: 100%; 
+    
+
+    display: flex; 
+    flex-direction: column; 
+    gap: 5rem; 
+}
+
+.bio-card {
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 1rem;
+}
+
+.bio-card-image-wrapper {
+    
+}
+
+.bio-card-header {
+    width: 100%; 
+}
+
+.bio-card__image {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto;
+    border-radius: 5px;  
+}
+
+.bio-card-header__heading {
+    color: #000; 
+    font-family: "Montserrat", sans-serif; 
+}
+
+.bio-card-content {
+    display: flex; 
+    flex-direction: column;
+    gap: 1.5rem; 
+}
+
+.bio-card-content__subtitle {
+    font-family: "Inter", sans-serif; 
+    font-style: italic; 
+}
+
+.bio-card-content-text-wrapper {
+    max-width: 900px;
+}
+
+.bio-card-content__text {
+    font-family: "Inter", sans-serif; 
+}
+
