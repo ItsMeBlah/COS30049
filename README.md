@@ -19,6 +19,18 @@ This project is a full-stack web application that predicts housing prices based 
 
 <img width="1265" alt="Screenshot 2024-11-29 133947" src="https://github.com/user-attachments/assets/26d76532-e300-4b79-945b-b892d4a71a4f">
 
+## API Reference
+
+**openstreetmap.org**
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `Your personal emai` | `string` | **Required**. OpenStreetMap requires your email in the header for accountability, troubleshooting, compliance, and ensuring responsible API usage while preventing abuse.|
+
 ## Installation
 
 **Front End**
