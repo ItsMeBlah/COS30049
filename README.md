@@ -27,7 +27,7 @@ Using method ```GET``` to take all the necessary data
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `Your personal emai` | `string` | **Required**. OpenStreetMap requires your email in the header for accountability, troubleshooting, compliance, and ensuring responsible API usage while preventing abuse.|
+| `Your personal emai` | `string` | **Required**. OpenStreetMap requires your email in the header for accountability, troubleshooting, compliance, and ensuring responsible API usage while preventing abuse. Update your personal email in the header of the backend file ```geographyProcess.py``` |
 
 ## Installation
 
