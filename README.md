@@ -3,18 +3,21 @@
 
 This project is a full-stack web application that predicts housing prices based on user-provided inputs such as location, size, and property features. It uses a machine learning model to generate accurate price estimates and provides an intuitive user interface for easy interaction. The backend API handles data processing and model predictions, while the frontend displays results and visual insights. The application is designed for homebuyers, real estate agents, and investors, offering a seamless and efficient way to analyze housing prices.
 
-
-
-
-
-
-
-
-
 ## Demo
 
+**Homepage**
 
+<img width="1265" alt="Screenshot 2024-11-29 133551" src="https://github.com/user-attachments/assets/a1be440f-fc5b-42c6-83d7-766603465e26">
 
+**Formpage**
+
+<img width="1268" alt="Screenshot 2024-11-29 133711" src="https://github.com/user-attachments/assets/58451579-6f58-42b0-aaec-aea00e7ecb54">
+
+**Visualization Page**
+
+<img width="1267" alt="Screenshot 2024-11-29 133831" src="https://github.com/user-attachments/assets/d6b25b19-8365-42d8-a785-2d04aa17a142">
+
+<img width="1265" alt="Screenshot 2024-11-29 133947" src="https://github.com/user-attachments/assets/26d76532-e300-4b79-945b-b892d4a71a4f">
 
 ## Installation
 
