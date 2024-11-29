@@ -23,9 +23,7 @@ This project is a full-stack web application that predicts housing prices based 
 
 **openstreetmap.org**
 
-```http
-  GET /api/items
-```
+Using method ```GET``` to take all the necessary data
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
